@@ -26,7 +26,7 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
 
 
-**Question 2**
+##Question 2
 
 Max Consecutive Ones
 Given a binary array nums, return the maximum number of consecutive 1's in the array.
