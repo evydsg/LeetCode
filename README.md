@@ -1,7 +1,7 @@
 # LeetCode
 Solutions for LeetCode Questions
 
-##Question 1
+## Question 1
 Two Sum
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
@@ -26,7 +26,7 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
 
 
-##Question 2
+## Question 2
 
 Max Consecutive Ones
 Given a binary array nums, return the maximum number of consecutive 1's in the array.
