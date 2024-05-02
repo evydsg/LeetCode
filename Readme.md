@@ -10,10 +10,10 @@ Given an integer array `nums` sorted in non-decreasing order, remove the duplica
 The judge will test your solution with the provided code snippet. If all assertions pass, your solution will be accepted.
 
 ```python
-nums = [...] // Input array
-expectedNums = [...] // The expected answer with correct length
+nums = [...] # Input array
+expectedNums = [...] # The expected answer with correct length
 
-k = removeDuplicates(nums) // Calls your implementation
+k = removeDuplicates(nums) # Calls your implementation
 
 k == expectedNums.length
 for index in range(k) {
