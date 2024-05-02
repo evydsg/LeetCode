@@ -1,4 +1,4 @@
-# 26 Remove Duplicates from Sorted Array
+# 26. Remove Duplicates from Sorted Array
 
 ## Description
 The removeDuplicates.py contains a solution to the "Remove Duplicates from Sorted Array" problem, along with additional information such as the problem statement, examples, and constraints.
