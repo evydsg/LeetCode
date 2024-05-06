@@ -167,6 +167,33 @@ The total sum is 5 + -2 + -4 + 9 + 5 + 14 = 27.
 - For operation "+", there will always be at least two previous scores on the record.
 - For operations "C" and "D", there will always be at least one previous score on the record.
 
+# 20. Valid Parentheses
+Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
+
+An input string is valid if:
+- Open brackets must be closed by the same type of brackets.
+- Open brackets must be closed in the correct order.
+- Every close bracket has a corresponding open bracket of the same type.
+
+#### Example 1
+**Input:**
+```python
+s = "()"
+```
+**Output:** 
+```python
+true
+```
+#### Example 2:
+
+**Input:** 
+```python
+s = "()[]{}"
+```
+**Output:** 
+```python
+ true
+```
 
 =======
 >>>>>>> 86c3a337991ce2e04ac64d300b128ada885b339b
