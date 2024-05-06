@@ -1,4 +1,4 @@
-# 26 Remove Duplicates from Sorted Array
+# 26. Remove Duplicates from Sorted Array
 
 ## Description
 The removeDuplicates.py contains a solution to the "Remove Duplicates from Sorted Array" problem, along with additional information such as the problem statement, examples, and constraints.
@@ -66,6 +66,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 <b>Output:</b> 5, nums = [0,1,3,0,4,,,,,_]<br>
 <b>Explanation:</b> Your function should return k = 5, with the first five elements of nums being 0, 1, 3, 0, and 4 respectively.<br>
 It does not matter what you leave beyond the returned k (hence they are underscores).<br>
+<<<<<<< HEAD
 
 # 1929. Concatenation of Array
 ### Problem Statement
@@ -110,3 +111,5 @@ The array ans is formed as follows:
 - 1 <= n <= 1000
 - 1 <= nums[i] <= 1000
 
+=======
+>>>>>>> 86c3a337991ce2e04ac64d300b128ada885b339b
