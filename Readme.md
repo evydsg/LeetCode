@@ -368,3 +368,69 @@ nums = [1,1,1,1,1]
 ##### Constraints
 - 1 <= nums.length <= 1000
 - 10^6 <= nums[i] <= 10^6
+
+# 709. To Lower Case
+Given a string `s`, return the string after replacing every uppercase letter with the same lowercase letter.
+
+#### Example 1
+**Input:**
+```python
+s = "Hello"
+```
+**Output:** 
+```python
+"hello"
+
+```
+
+#### Example 2
+**Input:**
+```python
+s = "here"
+```
+**Output:** 
+```python
+"here"
+
+```
+
+##### Constraints
+- 1 <= s.length <= 100
+- s consists of printable ASCII characters.
+
+# 2469. Convert the Temperature
+You are given a non-negative floating point number rounded to two decimal places `celsius`, that denotes the temperature in Celsius.
+
+You should convert Celsius into Kelvin and Fahrenheit and return it as an array `ans = [kelvin, fahrenheit]`.
+
+Return the array `ans`. Answers within `10-5` of the actual answer will be accepted.
+
+## Note that:
+- `Kelvin = Celsius + 273.15`
+- `Fahrenheit = Celsius * 1.80 + 32.00`
+
+#### Example 1
+**Input:**
+```python
+celsius = 36.50
+```
+**Output:** 
+```python
+[309.65000,97.70000]
+
+```
+
+#### Example 2
+**Input:**
+```python
+celsius = 122.11
+```
+**Output:** 
+```python
+[395.26000,251.79800]
+
+```
+
+##### Constraints
+- 0 <= celsius <= 1000
+
