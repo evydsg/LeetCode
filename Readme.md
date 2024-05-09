@@ -274,3 +274,35 @@ head = [1,2]
 ##### Constraints
 - The number of nodes in the list is the range [0, 5000].
 - 5000 <= Node.val <= 5000
+
+# 58. Length of Last Word
+Given a string `s` consisting of words and spaces, return the length of the last word in the string.<br>
+
+A word is a maximal 
+substring
+ consisting of non-space characters only.
+
+#### Example 1
+**Input:**
+```python
+s = "Hello World"
+```
+**Output:** 
+```python
+5
+```
+
+#### Example 2
+**Input:**
+```python
+s = "   fly me   to   the moon  "
+```
+**Output:** 
+```python
+4
+```
+
+##### Constraints
+- 1 <= s.length <= 104
+- s consists of only English letters and spaces ' '.
+- There will be at least one word in s.
