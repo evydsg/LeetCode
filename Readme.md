@@ -306,3 +306,34 @@ s = "   fly me   to   the moon  "
 - 1 <= s.length <= 104
 - s consists of only English letters and spaces ' '.
 - There will be at least one word in s.
+
+# 1672. Richest Customer Wealth
+You are given an `m x n` integer grid `accounts` where `accounts[i][j]` is the amount of money the `i​​​​​​​​​​​th​​​`​ customer has in the `j​​​​​​​​​th`​​​​ bank. Return the wealth that the richest customer has.
+
+A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
+
+#### Example 1
+**Input:**
+```python
+accounts = [[1,2,3],[3,2,1]]
+```
+**Output:** 
+```python
+6
+```
+
+#### Example 2
+**Input:**
+```python
+accounts = [[1,5],[7,3],[3,5]]
+```
+**Output:** 
+```python
+10
+```
+
+##### Constraints
+- m == accounts.length
+- n == accounts[i].length
+- 1 <= m, n <= 50
+- 1 <= accounts[i][j] <= 100
