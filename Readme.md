@@ -308,7 +308,7 @@ s = "   fly me   to   the moon  "
 - There will be at least one word in s.
 
 # 1672. Richest Customer Wealth
-You are given an `m x n` integer grid `accounts` where `accounts[i][j]` is the amount of money the `i​​​​​​​​​​​th​​​`​ customer has in the `j​​​​​​​​​th`​​​​ bank. Return the wealth that the richest customer has.
+You are given an `m x n` integer grid `accounts` where `accounts[i][j]` is the amount of money the `i​​​​​​​​​​​th​​​`​ customer has in the `j​​​​​​​​​th`​​​​ bank. Return the wealth that the richest customer has. <br>
 
 A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
 
@@ -337,3 +337,34 @@ accounts = [[1,5],[7,3],[3,5]]
 - n == accounts[i].length
 - 1 <= m, n <= 50
 - 1 <= accounts[i][j] <= 100
+
+# 1480. Running Sum of 1d Array
+Given an array `nums`. We define a running sum of an array as `runningSum[i] = sum(nums[0]…nums[i])`.
+
+Return the running sum of `nums`.
+
+
+
+#### Example 1
+**Input:**
+```python
+nums = [1,2,3,4]
+```
+**Output:** 
+```python
+[1,3,6,10]
+```
+
+#### Example 2
+**Input:**
+```python
+nums = [1,1,1,1,1]
+```
+**Output:** 
+```python
+[1,2,3,4,5]
+```
+
+##### Constraints
+- 1 <= nums.length <= 1000
+- 10^6 <= nums[i] <= 10^6
