@@ -565,3 +565,26 @@ n = 2
 ##### Constraints
 -  0 <= n <= 30
 
+# 70. Climbing Stairs
+You are climbing a staircase. It takes n steps to reach the top.<br>
+
+Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?<br>
+
+
+#### Example 1
+**Input:**
+```python
+n = 2
+```
+**Output:** 
+```python
+2
+```
+##### Explanation:
+There are two ways to climb to the top.
+1. step + 1 step
+2. steps
+
+##### Constraints
+-  1 <= n <= 45
+
