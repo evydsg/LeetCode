@@ -608,5 +608,30 @@ stones = "aAAbbbb"
 ##### Constraints
 - `1 <= jewels.length, stones.length <= 50`
 - `jewels` and `stones` consist of only English letters.
-- All the characters of `jewels` are unique.
+- All the characters of `jewels` are unique.<br>
+<br>
+# 2236. Root Equals Sum of Children
+You are given the `root` of a binary tree that consists of exactly `3 `nodes: the root, its left child, and its right child.<br>
 
+
+Return `true` if the value of the root is equal to the sum of the values of its two children, or `false` otherwise.<br>
+
+
+#### Example 1
+**Input:**
+```python
+root = [10,4,6]
+```
+**Output:** 
+```python
+true
+```
+<br>
+
+##### Explanation:
+The values of the root, its left child, and its right child are 10, 4, and 6, respectively.<br>
+10 is equal to 4 + 6, so we return true.
+<br><br>
+##### Constraints
+-  The tree consists only of the root, its left child, and its right child.
+- 100 <= Node.val <= 100
