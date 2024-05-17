@@ -665,3 +665,24 @@ Because nums[0] + nums[1] == 9, we return [0, 1].
 - 109 <= nums[i] <= 109
 - 109 <= target <= 109
 - Only one valid answer exists.
+
+<br>
+
+# 344. Reverse String
+Write a function that reverses a string. The input string is given as an array of characters s.<br>
+
+You must do this by modifying the input array in-place with O(1) extra memory.<br>
+
+#### Example 1
+**Input:**
+```python
+s = ["h","e","l","l","o"]
+```
+**Output:** 
+```python
+["o","l","l","e","h"]
+```
+
+##### Constraints
+- `1 <= s.length <= 105`
+- `s[i]` is a printable ascii character.
