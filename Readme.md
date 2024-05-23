@@ -711,3 +711,29 @@ After sorting the array, the positions of some numbers are not changed (for exam
 ## Constraints
 - `1 <= nums.length <= 5 * 104`
 - `5 * 104 <= nums[i] <= 5 * 104`
+
+# 1768. Merge Strings Alternately
+You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string. <br>
+
+Return the merged string
+
+## Example 1
+```python
+word1 = "abc"
+word2 = "pqr"
+```
+**Output:** 
+```python
+"apbqcr"
+```
+
+### Explanation
+The merged string will be merged as so:<br>
+word1:  a   b   c<br>
+word2:    p   q   r<br>
+merged: a p b q c r
+<br>
+
+## Constraints
+- 1 <= word1.length, word2.length <= 100
+- word1 and word2 consist of lowercase English letters.
