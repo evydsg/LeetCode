@@ -737,3 +737,26 @@ merged: a p b q c r
 ## Constraints
 - 1 <= word1.length, word2.length <= 100
 - word1 and word2 consist of lowercase English letters.
+
+# 912. Sort an Array
+Given an array of integers `nums`, sort the array in ascending order and return it.<br>
+
+You must solve the problem without using any built-in functions in  `O(nlog(n))` time complexity and with the smallest space complexity possible.<br>
+
+Return the merged string
+
+## Example 1
+```python
+ nums = [5,2,3,1]
+```
+**Output:** 
+```python
+[1,2,3,5]
+```
+
+### Explanation
+After sorting the array, the positions of some numbers are not changed (for example, 2 and 3), while the positions of other numbers are changed (for example, 1 and 5).
+
+## Constraints
+- 1 <= nums.length <= 5 * 104
+- 5 * 104 <= nums[i] <= 5 * 104
