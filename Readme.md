@@ -785,6 +785,8 @@ nums = [2,5,1,3,4,7], n = 3
 - nums.length == 2n
 - 1 <= nums[i] <= 10^3
 
+<br>
+
 # 1470. Shuffle the Array
 You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in adjacent plots.<br>
 
@@ -807,3 +809,29 @@ true
 - flowerbed[i] is 0 or 1.
 - There are no two adjacent flowers in flowerbed.
 - 0 <= n <= flowerbed.length
+
+<br>
+
+# 75. Sort Colors
+Given an array `nums` with `n` objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+<br>
+
+We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
+
+You must solve this problem without using the library's sort function.
+
+
+
+## Example 1
+```python
+nums = [2,0,2,1,1,0]
+```
+**Output:** 
+```python
+[0,0,1,1,2,2]
+```
+
+## Constraints
+- n == nums.length
+- 1 <= n <= 300
+- nums[i] is either 0, 1, or 2
